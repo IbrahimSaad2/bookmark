@@ -1,0 +1,63 @@
+/* font-family: "Pacifico", cursive; */
+body{
+    background-color: #F7ECDE;
+}
+.title{
+    font-family: "Pacifico", cursive;
+    display : flex;
+    justify-content: center;
+    margin-top: 56px;
+    position: relative;
+    border-bottom: dotted 2px #000;
+    padding-bottom: 55px;
+    margin-bottom: 20px;
+}
+.title h1{
+    font-size: 50px;
+}
+.title::after{
+    content: '';
+    width: 268px;
+    height: 18px;
+    background-color: #fec260;
+    z-index: -1 ;
+    transition: all 0.2s;
+    position: absolute;
+    bottom: 65px;
+}
+.title:hover::after{
+    height: 40px;
+}
+
+.bookmark {
+    text-align: center;
+}
+.bookmark h2{
+    font-size: 25px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #3ca55c, #e8d935);
+    font-family: "Righteous", cursive;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form input{
+    border: solid rgb(226, 223, 223);
+    padding: 8px;
+}
+.form .btn button{
+    padding: 8px 47px;
+    color: #fff;
+    background-color: #D1512D;
+    border-radius: 0.3rem;
+    border: none;
+    position: relative;
+    left: 380%;
+    transition: all 0.3s;
+    
+} 
+.form .btn  button:hover{
+    background-color: #af3918;
+}
+.form .content{
+    border-bottom: 2px dotted;
+}
